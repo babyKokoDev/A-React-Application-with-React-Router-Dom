@@ -1,9 +1,10 @@
 import React from 'react'
 import './HomeStyles.css'
+import NavBar from './NavBar'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <NavBar />
   )
 }
 
