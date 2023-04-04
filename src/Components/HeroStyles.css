@@ -6,7 +6,7 @@
 
 .hero .container {
     max-width: 1240px;
-    padding: 0 1rem;
+    padding: 0 0 1rem 4rem;
     margin: auto;
 }
 
@@ -145,7 +145,23 @@ form input {
    }
 
    .hero .col-2 {
-       display: none;
+       display: block;
    }
+   .hero .form-layout {
+    width: 100%;
+    margin-top: -70px;
+    background-color: #fff;
+    border-radius: 6px;
+}
+.social-login i{
+    background-color: #fff;
+    padding: 15px 20px 5px 20px;
+    border: 1px solid var(--lightgrey);
+    border-radius: 4px;
+}
+
+.social-login{
+    text-align: center;
+}
     
 }
