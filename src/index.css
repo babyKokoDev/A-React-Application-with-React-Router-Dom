@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap');
+
+
 :root{
     --primary: #6948ff;
     --secondary: #553bcb;
@@ -14,6 +17,7 @@
 
 body{
     color: #333;
+    font-family: 'Work Sans', sans-serif;
 }
 
 ul{
@@ -37,9 +41,18 @@ button {
     background-color: var(--primary);
     color: #fff;
     cursor: pointer;
+    font-family: 'Work Sans', sans-serif;
 }
 
 .button:hover{
     border: 1px solid var(--secondary);
     background-color: var(--secondary);   
+}
+
+input {
+    font-family: 'Work Sans', sans-serif;
+}
+
+textarea {
+    font-family: 'Work Sans', sans-serif;
 }

@@ -86,7 +86,7 @@
     width: 100%;
     text-align: center;
     border-bottom: 1px solid var(--lightgrey);
-    line-height: .1em;
+    line-height: .03em;
     margin: 2rem 0 2rem;
 }
 
