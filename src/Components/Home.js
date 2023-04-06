@@ -1,4 +1,5 @@
 import React from 'react'
+import Faq from './Faq'
 import Hero from './Hero'
 import './HomeStyles.css'
 import NavBar from './NavBar'
@@ -12,6 +13,7 @@ const Home = () => {
     <Hero />
     <Pricing />
     <Testimonials />
+    <Faq />
     </>
   )
 }
